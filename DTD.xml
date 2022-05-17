@@ -1,0 +1,115 @@
+<?xlm version="1.0" encoding+"iso-8859-1"?>
+<!DOCTYPE Company [
+    <!ELEMENT Company (Employee)*>
+    <!ELEMENT Employee (EmployeeID,name,Salary,JD,Position)>
+    <!ELEMENT EmployeeID (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT Salary (#PCDATA)>
+    <!ELEMENT JD (#PCDATA)>
+    <!ELEMENT Position (#PCDATA)>
+    <!ATTLIST Employee id CDATA #REQUIRED>
+    
+]>
+
+
+
+
+
+<Company>
+<Employee id="12">
+<EmployeeID>
+10234
+</EmployeeID>
+<name>
+Salman
+</name>
+<Salary>
+50000
+</Salary>
+<JD>
+2-2-2015
+</JD>
+<Position>
+Manager
+</Position>
+</Employee>
+
+
+<Employee id="12">
+<EmployeeID>
+10235
+</EmployeeID>
+<name>
+Ibrahim
+</name>
+<Salary>
+200000
+</Salary>
+<JD>
+3-5-1990
+</JD>
+<Position>
+CEO
+</Position>
+</Employee>
+
+
+<Employee id="12">
+<EmployeeID>
+10236
+</EmployeeID>
+<name>
+Asim
+</name>
+<Salary>
+50000
+</Salary>
+<JD>
+4-4-2017
+</JD>
+<Position>
+Manager
+</Position>
+</Employee>
+
+
+<Employee id="12">
+<EmployeeID>
+10237
+</EmployeeID>
+<name>
+Ghazanfar
+</name>
+<Salary>
+50000
+</Salary>
+<JD>
+8-10-2015
+</JD>
+<Position>
+Manager
+</Position>
+</Employee>
+
+
+<Employee id="12">
+<EmployeeID>
+10238
+</EmployeeID>
+<name>
+Saima
+</name>
+<Salary>
+100000
+</Salary>
+<JD>
+4-5-2000
+</JD>
+<Position>
+MD
+</Position>
+</Employee>
+
+
+
+</Company>
